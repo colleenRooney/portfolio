@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import Navbar from '../navBar';
 
 
 class Landing extends Component {
@@ -7,8 +8,10 @@ class Landing extends Component {
     return(
       <div className="landing-grid" style={{width: '100%', margin: 'auto'}}>
         <Grid>
-          <Cell col={12} noSpacing={true}>
-	    <h1>TEST</h1>
+          <Cell col={12}>
+          <div className="banner-text">
+            <Navbar></Navbar>
+          </div>
           </Cell>
           </Grid>
       </div>
@@ -17,4 +20,3 @@ class Landing extends Component {
 }
 
 export default Landing;
-
