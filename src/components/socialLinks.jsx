@@ -1,10 +1,6 @@
-import React, { Component } from 'react';
-import { Tab, Tabs } from 'react-mdl';
+import React from 'react';
 
 class SocialLinks extends React.Component {
-    constructor(props) {
-        super(props)
-    }
 
     render() {
         return (

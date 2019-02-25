@@ -11,6 +11,11 @@
 }
 
 .projects-grid {
+  margin: auto;
+  display: flex;
+}
+
+.about-grid {
   display: flex;
 }
 

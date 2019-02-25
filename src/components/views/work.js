@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, 
+  CardActions, Button } from 'react-mdl';
 import Navbar from '../navBar';
 import SocialLinks from '../socialLinks';
 
@@ -48,7 +49,7 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 1) {
       return (
-          <Card shadow={1} style={{width: '512px', margin: '10px'}}>
+          <Card shadow={1} style={{width: '512px', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}} >
             </CardTitle>
             <CardText>
