@@ -16,8 +16,8 @@ class Projects extends Component {
       return(
         <div className="projects-grid">
           {/* Full Stack */}
-          <Card shadow={1} style={{width: '512px', margin: '10px'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}} >
+          <Card shadow={1} style={{width: '512px', margin: 'auto 10px auto auto'}}>
+            <CardTitle style={{color: '#fff', height: '250px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}} >
               Course Visualization
             </CardTitle>
             <CardText>
@@ -30,8 +30,8 @@ class Projects extends Component {
           </Card>
 
           {/* ML */}
-          <Card shadow={1} style={{width: '512px', margin: '10px'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}} >
+          <Card shadow={1} style={{width: '512px', margin: 'auto auto auto 10px'}}>
+            <CardTitle style={{color: '#fff', height: '250px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}} >
               MRI Lesion Detection
             </CardTitle>
             <CardText>
