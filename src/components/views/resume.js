@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Tabs, Grid, Cell } from 'react-mdl';
 import Navbar from '../navBar';
 import SocialLinks from '../socialLinks';
 
@@ -13,6 +13,7 @@ class Resume extends Component {
           <div className="banner-text">
             <Navbar></Navbar>
           </div>
+          <Tabs></Tabs>
           <SocialLinks></SocialLinks>
           </Cell>
           </Grid>
