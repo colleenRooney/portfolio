@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Grid, Cell, Card, CardTitle, CardText } from 'react-mdl';
+import { Tabs } from 'react-mdl';
 import Navbar from '../navBar';
 import SocialLinks from '../socialLinks';
 

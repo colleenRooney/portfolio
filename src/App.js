@@ -44,6 +44,5 @@ class App extends Component {
     );
   }
 }
-console.log(App.state)
 
 export default App;
