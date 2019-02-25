@@ -1,5 +1,5 @@
 .landing-grid {
-  background: url(./images/layout1_bg.png);
+  background: url(./images/background_2.png);
   background-position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,7 +22,6 @@
   text-align: center;
   padding: 0;
 }
-
 .nav-bar a {
   margin-left: 10px;
   margin-right: 10px;
@@ -33,7 +32,7 @@
 }
 
 .nav-bar a:hover {
-  color: blue;
+  color: #6b6bdf;
 }
 
 .banner-text h1 a {
@@ -45,3 +44,20 @@
   color: black;
 }
 
+.social-links {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+}
+
+.social-links i {
+  color: #D3D3D3;
+  font-size: 2.5em;
+  padding: 8px;
+}
+
+.social-links i:hover {
+  color: gray;
+}
