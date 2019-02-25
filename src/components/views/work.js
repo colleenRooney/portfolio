@@ -17,7 +17,7 @@ class Projects extends Component {
       return(
         <div className="projects-grid">
           {/* Full Stack */}
-          <Card shadow={1} style={{width: '512px', margin: 'auto 10px auto auto'}}>
+          <Card shadow={1} className="code-card">
             <CardTitle style={{color: '#fff', height: '250px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}} >
               Course Visualization
             </CardTitle>
@@ -26,12 +26,12 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored>Live Code</Button>
             </CardActions>
           </Card>
 
           {/* ML */}
-          <Card shadow={1} style={{width: '512px', margin: 'auto auto auto 10px'}}>
+          <Card shadow={1} className="code-card">
             <CardTitle style={{color: '#fff', height: '250px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}} >
               MRI Lesion Detection
             </CardTitle>
@@ -40,7 +40,21 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored>Live Code</Button>
+            </CardActions>
+          </Card>
+
+          {/* PyGame */}
+          <Card shadow={1} className="code-card">
+            <CardTitle style={{color: '#fff', height: '250px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}} >
+              PyGame
+            </CardTitle>
+            <CardText>
+              Learned PyGame for summer 2018 tutoring.
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>Live Code</Button>
             </CardActions>
           </Card>
         </div>
