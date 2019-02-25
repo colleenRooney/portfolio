@@ -84,9 +84,9 @@
   justify-content: center;
 }
 .bio {
-  box-shadow: 0 0 10px 1px #999;
-  -moz-box-shadow: 0 0 10px 1px #999;
-  -webkit-box-shadow: 0 0 10px 1px #999;
+  box-shadow: 0 3px 5px 0px #888;
+  -moz-box-shadow: 0 3px 5px 0px #888; 
+  -webkit-box-shadow: 0 3px 5px 0px #888; 
   width: 50%;
   margin: 20px;
 }
@@ -99,9 +99,10 @@
   background: url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/13880197_10209880495519722_5716428322345645940_n.jpg?_nc_cat=111&_nc_ht=scontent-sea1-1.xx&oh=1fc789084a3bc358c6c8b2e683ebb4bc&oe=5D26A989); 
   background-size: cover;
   background-repeat: no-repeat;
-  width: 30%;
+  padding-bottom: 25%;
+  width: 25%;
   margin: 20px;
-  box-shadow: 0 0 10px 1px #999;
-  -moz-box-shadow: 0 0 10px 1px #999;
-  -webkit-box-shadow: 0 0 10px 1px #999;
+  box-shadow: 0 3px 5px 0px #888;
+  -moz-box-shadow: 0 3px 5px 0px #888; 
+  -webkit-box-shadow: 0 3px 5px 0px #888; 
 }
