@@ -15,7 +15,7 @@ class Projects extends Component {
 
     if(this.state.activeTab === 0){
       return(
-        <div className="projects-grid">
+        <div className="projects-container">
           {/* Full Stack */}
           <Card shadow={1} className="code-card">
             <CardTitle style={{color: '#fff', height: '250px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}} >
@@ -79,7 +79,7 @@ class Projects extends Component {
   render() {
     return(
       <div>
-          <div className="banner-text">
+          <div className="banner" id="page">
             <Navbar></Navbar>
           </div>
           <SocialLinks></SocialLinks>

@@ -1,35 +1,26 @@
-.landing-grid {
-  background: url(./images/background_2.png);
-  background-position: absolute;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.projects-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.code-card {
-  margin: 10px;
-  min-width: 500px;
-}
-
-.about-grid {
-  display: flex;
-}
-
-.banner-text {
+/** ALL APP **/
+.banner {
   background-color: white;
+  background-position: absolute;
   opacity: .8;
   width: 100%;
   margin: auto;
+}
+
+.banner h1 a {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Poiret One', sans-serif;
+  color: black;
+}
+
+#page {
+  background: url(./images/header.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50%;
 }
 
 .nav-bar {
@@ -37,6 +28,7 @@
   text-align: center;
   padding: 0;
 }
+
 .nav-bar a {
   margin-left: 10px;
   margin-right: 10px;
@@ -44,19 +36,6 @@
   text-decoration: none;
   text-transform: uppercase;
   font-size: 20px;
-}
-
-.nav-bar a:hover {
-  color: #6b6bdf;
-}
-
-.banner-text h1 a {
-  font-size: 50px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-family: 'Poiret One', sans-serif;
-  color: black;
 }
 
 .social-links {
@@ -76,32 +55,21 @@
   color: gray;
 }
 
-.about-grid {
-  display: flex;
-  flex: wrap;
-  justify-content: center;
-  height: 35%;
-  margin: auto;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  justify-content: center;
+.nav-bar a:hover {
+  color: #6b6bdf;
 }
-.bio {
+
+.float-text {
   box-shadow: 0 3px 5px 0px #888;
   -moz-box-shadow: 0 3px 5px 0px #888; 
   -webkit-box-shadow: 0 3px 5px 0px #888; 
-  width: 50%;
-  max-width: 700px;
   margin: 20px;
   overflow-y: auto;
   display: flex;
   flex-flow: row wrap;
 }
 
-.bio h1 {
+.float-text h1 {
   margin: 15px;
   margin-bottom: 0px;
   text-decoration: none;
@@ -109,18 +77,92 @@
   font-size: 20px;
 }
 
-.bio p {
+.float-text p {
   margin: 15px;
 }
 
 .image {
+  box-shadow: 0 3px 5px 0px #888;
+  -moz-box-shadow: 0 3px 5px 0px #888; 
+  -webkit-box-shadow: 0 3px 5px 0px #888; 
+  background-repeat: no-repeat;
+}
+
+/** LANDING **/
+.landing-grid {
+  background: url(./images/background_2.png);
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/** ABOUT **/
+.about-container {
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+  height: 35%;
+  margin: auto;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+
+#bio {
+  width: 50%;
+  max-width: 700px;
+}
+
+#profile-photo {
   background: url(https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/13880197_10209880495519722_5716428322345645940_n.jpg?_nc_cat=111&_nc_ht=scontent-sea1-1.xx&oh=1fc789084a3bc358c6c8b2e683ebb4bc&oe=5D26A989); 
   background-size: cover;
-  background-repeat: no-repeat;
   width: 25%;
   height: 0;
   padding-bottom: 25%;
   margin: 20px;
+}
+
+
+/** WORK **/
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1800px;
+  margin: auto;
+  justify-content: center;
+}
+
+.code-card {
+  margin: 10px;
+  min-width: 600px;
+}
+
+
+/** RESUME **/
+.resume-container {
+  display: flex;
+}
+
+.resume {
+  background: url(./images/Resume_2019-1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 0;
+  padding-bottom: 60%;
+  margin: auto;
+  margin-top: 30px;
   box-shadow: 0 3px 5px 0px #888;
   -moz-box-shadow: 0 3px 5px 0px #888; 
   -webkit-box-shadow: 0 3px 5px 0px #888; 

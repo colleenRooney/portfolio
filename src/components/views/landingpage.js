@@ -10,7 +10,7 @@ class Landing extends Component {
       <div className="landing-grid" style={{width: '100%', margin: 'auto'}}>
         <Grid noSpacing='true'>
           <Cell col={12}>
-          <div className="banner-text">
+          <div className="banner">
             <Navbar></Navbar>
           </div>
           <SocialLinks></SocialLinks>

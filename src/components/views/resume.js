@@ -7,16 +7,15 @@ import SocialLinks from '../socialLinks';
 class Resume extends Component {
   render() {
     return(
-      <div className="resume-grid" style={{width: '100%', margin: 'auto'}}>
-        <Grid>
-          <Cell col={12} noSpacing={true}>
-          <div className="banner-text">
-            <Navbar></Navbar>
-          </div>
-          <Tabs></Tabs>
-          <SocialLinks></SocialLinks>
-          </Cell>
-          </Grid>
+      <div className="resume-grid">
+        <div className="banner" id="page">
+          <Navbar></Navbar>
+        </div>
+        <Tabs></Tabs>
+        <SocialLinks></SocialLinks>
+        <div className="resume-container">
+          <div className="resume"></div>
+        </div>
       </div>
     )
   }
