@@ -63,13 +63,22 @@ class Projects extends Component {
       )
     } else if(this.state.activeTab === 1) {
       return (
-          <Card shadow={1} style={{width: '512px', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}} >
-            </CardTitle>
-            <CardText>
-              Title, Medium, Year
-            </CardText>
-          </Card>
+        <div className="projects-container" id="art-container">
+          <div className="float-text" id="lone-peak">
+            <p>Lone Peak, 2016, Oil on canvas</p>
+          </div>
+          <div className="float-text" id="olive-farmer">
+            <p>Olive Farmer, 2013, Oil on paper</p>
+          </div>
+          <br/>
+          <div className="float-text" id="netter">
+            <p>Anatomical studies based on work by Frank Netter MD, 2016, 
+              Pen on paper</p>
+          </div>
+          <div className="float-text" id="louise">
+            <p>Louise, 2011,  digitally altered colored pencil</p>
+          </div>
+        </div>
       )
     }
   }

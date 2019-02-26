@@ -151,6 +151,74 @@
   min-width: 600px;
 }
 
+#art-container{
+  max-width: 50%;
+}
+
+#lone-peak {
+  background: url(images/lone-peak.JPG);
+  height: 600px;
+  width: 400px;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: center
+}
+
+#lone-peak p {
+  position: absolute;
+  bottom: 0;  
+}
+
+#olive-farmer {
+  background: url(images/olive-farmer.JPG);
+  height: 600px;
+  width: 400px;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: center
+}
+
+#olive-farmer p {
+  position: absolute;
+  bottom: 0;  
+}
+
+#netter {
+  background: url(images/netter.JPG);
+  height: 600px;
+  width: 400px;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: center
+}
+
+#netter p {
+  position: absolute;
+  bottom: 0;  
+}
+
+#louise {
+  background: url(images/louise.JPG);
+  min-height: 600px;
+  width: 400px;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: center
+}
+
+#louise p {
+  position: absolute;
+  bottom: 0;  
+}
+
 
 /** RESUME **/
 .resume-container {
