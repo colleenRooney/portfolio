@@ -65,20 +65,18 @@
   -webkit-box-shadow: 0 3px 5px 0px #888; 
   margin: 20px;
   overflow-y: auto;
-  display: flex;
-  flex-flow: row wrap;
 }
 
 .float-text h1 {
   margin: 15px;
   margin-bottom: 0px;
-  text-decoration: none;
   text-transform: uppercase;
   font-size: 20px;
 }
 
 .float-text p {
   margin: 15px;
+  text-align: left;
 }
 
 .image {
@@ -105,7 +103,7 @@
 /** ABOUT **/
 .about-container {
   display: flex;
-  flex: wrap;
+  flex-wrap: wrap;
   justify-content: center;
   height: 35%;
   margin: auto;
@@ -121,6 +119,12 @@
 #bio {
   width: 50%;
   max-width: 700px;
+  max-height: 300px;
+}
+
+#misc {
+  width: 75%;
+  max-width: 1000px;
 }
 
 #profile-photo {

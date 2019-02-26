@@ -16,6 +16,7 @@ class Resume extends Component {
         <div className="resume-container">
           <div className="resume"></div>
         </div>
+        <p style={{'marginTop': '15px', 'textAlign': 'center'}}>*Sorry about the misplaced lines, I will fix this*</p>
       </div>
     )
   }

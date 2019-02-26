@@ -16,6 +16,12 @@ class Landing extends Component {
           <SocialLinks></SocialLinks>
           </Cell>
           </Grid>
+          <div className="float-text" style={{'width': '20%', 'background-color': 'white', 'opacity': '0.8'}}>
+            <p>UNDER CONSTRUCTION<br/>
+            <hr></hr>
+            <em>Sorry about the flashing. <br/>I'm new to this whole web-dev thing
+            and working on resolving it<br/>-- 02/26/2019</em></p>
+          </div>
       </div>
     )
   }
